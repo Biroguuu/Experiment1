@@ -1,0 +1,31 @@
+//Problem2
+#include <iostream>
+#include <conio.h>
+#include <cmath>
+#include <iomanip>
+
+using namespace std; 
+
+int main()
+
+{
+
+	double mass, volume, density;
+
+	cout << " Input the mass of the object " << endl;
+	cin >> mass;
+	
+	cout << " Input the density of the object  " << endl;
+	cin >> density; 
+	
+	cout << " the mass of the object is " << mass << "g" << endl;
+	cout << " The density of the object is " << density << "g/cm^3" << endl;
+	cout << " the volume of the object is " << (density ( 25% * mass)) / volume << endl;
+	
+  //Mam di ko po alam san yung error ko
+  
+	_getch();
+
+	return 0;
+  
+  }

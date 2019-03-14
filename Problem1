@@ -1,0 +1,28 @@
+// PROBLEM 1: The manager of a football stadium wants you to write a program that calculates the total ticket sales after each game. There are four types of tickets—box, sideline, premium, and general admission. After each game, data is stored in a file in the following form.
+//Start of Problem 1
+#include<iostream>
+#include<iomanip>
+#include<cmath> 
+#include<conio.h>
+
+using namespace std;
+ 
+int main()
+
+{
+	
+	cout << "Ticket Type / Ticket Price / Ticket Sold " << endl;
+	cout << "	Box		$250				5750 tickets " << endl;
+	cout << "	Sideline	$100				28000 tickets " << endl;
+	cout << "	Premium		$50				35750 tickets " << endl; 
+	cout << "	GenAdm		$25				18750 tickets " << endl;
+	cout << " " << endl;
+	cout << " Total Tickets sold are " <<  5750 + 28000 + 35750 + 18750  << " tickets " << endl; 
+	cout << " Total Sales is $" << ( 250 * 5750 ) + ( 100 * 28000 ) + ( 50 * 35750 ) + ( 25 * 18750 ) << ".00" << endl;  
+	
+	
+	_getch(); 
+
+	return 0;
+
+}
